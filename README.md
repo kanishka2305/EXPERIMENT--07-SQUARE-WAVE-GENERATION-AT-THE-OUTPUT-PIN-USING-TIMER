@@ -184,34 +184,42 @@ static void MX_TIM2_Init(void)
 ```
 
 ## Output screen shots of proteus  :
- 
+![image](https://github.com/kanishka2305/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/113497357/dff18f79-5b19-425d-af8e-cf9a683c2a20)
+## Pulse at 3600:
+ ![image](https://github.com/kanishka2305/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/113497357/271f565f-e88d-4d31-af59-ac894155ec31)
+## Pulse at 5000:
+![image](https://github.com/kanishka2305/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/113497357/6cea38da-b200-403a-84a1-29dac743ba5e)
+## Pulse at 900:
+![image](https://github.com/kanishka2305/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/113497357/f2c52518-18d9-47f5-8c23-d8560dffac8c)
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![image](https://github.com/kanishka2305/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/113497357/1438f1c5-cc66-41ab-97b7-6809a15f5434)
+
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
-FOR PULSE AT 500
+## FOR PULSE AT 3600
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TOFF=1*1 = 1ms
+TOTAL TIME = 1+1 = 2ms
+% DUTY=TON/TOTAL TIME*100%
+    =(1/2)*100 = 50%
 
-FOR PULSE AT 700
+## FOR PULSE AT 5000
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 0.5*0.5 = 0.25 ms
+TOFF=3*0.5= =1.5 ms
+TOTAL TIME = 0.25+1.5 = 1.75 ms
+% DUTY = (0.25/1.75)*100
+       =15%
 
+## FOR PULSE AT 900
 
-FOR PULSE AT 900
-
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
-
+TON = 2.5*0.5 = 1.25
+TOFF= 1*0.5 = 0.5
+TOTAL TIME = 1.25+ 0.5 = 1.75
+% DUTY = (1.25/1.75)*100%
+       = 71%
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
