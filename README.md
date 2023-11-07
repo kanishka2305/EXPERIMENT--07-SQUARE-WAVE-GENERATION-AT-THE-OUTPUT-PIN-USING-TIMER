@@ -199,28 +199,28 @@ static void MX_TIM2_Init(void)
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 ## FOR PULSE AT 3600
-
+```py
 TOFF=1*1 = 1ms
 TOTAL TIME = 1+1 = 2ms
 % DUTY=TON/TOTAL TIME*100%
     =(1/2)*100 = 50%
-
+```
 ## FOR PULSE AT 5000
-
+```py
 TON = 0.5*0.5 = 0.25 ms
 TOFF=3*0.5= =1.5 ms
 TOTAL TIME = 0.25+1.5 = 1.75 ms
 % DUTY = (0.25/1.75)*100
        =15%
-
+```
 ## FOR PULSE AT 900
-
+```py
 TON = 2.5*0.5 = 1.25
 TOFF= 1*0.5 = 0.5
 TOTAL TIME = 1.25+ 0.5 = 1.75
 % DUTY = (1.25/1.75)*100%
        = 71%
-
+```
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
 
